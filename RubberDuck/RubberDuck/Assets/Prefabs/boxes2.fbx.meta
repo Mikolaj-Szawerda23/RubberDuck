@@ -1,22 +1,14 @@
 fileFormatVersion: 2
-guid: e50b5847c2983044cbdebbf337c7476c
+guid: ffcb181ca88e4dc4381a59b043c39295
 ModelImporter:
   serializedVersion: 19300
-  internalIDToNameTable:
-  - first:
-      74: -1755487944959890926
-    second: Duck.001|Splash.001
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.016
-    second: {fileID: 2100000, guid: 16bada28103c5b849b854d581625e790, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.017
-    second: {fileID: 2100000, guid: 9035e840e6504ec498451fdb479916fd, type: 2}
+      name: Material.013
+    second: {fileID: 2100000, guid: 821d80345f1296043bf2074c4cb7caed, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
