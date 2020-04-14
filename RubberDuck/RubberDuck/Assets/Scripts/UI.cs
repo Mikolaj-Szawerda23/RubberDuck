@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 public class UI : MonoBehaviour
 {
     [SerializeField]
-    Text numberOfDucks;
+    TextMeshProUGUI numberOfDucks;
     [SerializeField]
-    Text score;
+    TextMeshProUGUI score;
     int n = 0,toHit,scoreNum=0;
     // Start is called before the first frame update
     void Start()
@@ -25,8 +26,8 @@ public class UI : MonoBehaviour
     {
         scoreNum += 100;
         n = gameMan.hitsDuck;
-        string text = n + "/"+toHit;
-        numberOfDucks.text = text;
+        Debug.Log(n.ToString());
+        numberOfDucks.text ="Ducks:"+ n + "/" + toHit;
         score.text ="Score:"+ scoreNum.ToString();
     }
     

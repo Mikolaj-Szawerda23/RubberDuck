@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class badDuckAttack : duckAttack
 {
-    Animator duck;
+    Animator duck2;
     // Start is called before the first frame update
     void Start()
     {
-        duck = GetComponent<Animator>();
+        duck2 = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,9 +20,9 @@ public class badDuckAttack : duckAttack
     {
         if (collision.gameObject.tag == "Hammer")
         {
-            gameMan.hitsDuck++;
+            gameMan.hitsDuck+=1;
             isHit?.Invoke();
-            duckDestroy(duck);
+            duckDestroy(duck2);
         }
            
     }
